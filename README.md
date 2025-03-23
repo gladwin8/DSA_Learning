@@ -1,33 +1,30 @@
-DSA Learning !!
+<h1 align="center">DSA Learning !!</h1>
 
-Below are the challanges questions Ive tried,
-Will be covering ,
-- Patterns
-    - Easy
-    - Medium
-    - Complex
+Below are the challanges questions Ive tried and will be covering ,
+- Patterns</p>
 
--Easy
-Pattern 1
-*****
-*****
-*****
-*****
-*****
+<h3>PATTERNS</h3>
+              -Easy</p>
+Pattern 1</p>
+*****</p>
+*****</p>
+*****</p>
+*****</p>
+*****</p>
 
-Pattern 2
-*
-**
-***
-****
-*****
+Pattern 2</p>
+*</p>
+**</p>
+***</p>
+****</p>
+*****</p>
 
-Pattern 3
-1
-12
-123
-1234
-12345
+Pattern 3</p>
+1</p>
+12</p>
+123</p>
+1234</p>
+12345</p>
 
 
   
