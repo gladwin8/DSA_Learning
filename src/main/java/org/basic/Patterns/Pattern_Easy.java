@@ -1,6 +1,6 @@
 package org.basic.Patterns;
 
-public class Pattern1 {
+public class Pattern_Easy {
 
     /*
     Pattern 1
@@ -31,6 +31,16 @@ public class Pattern1 {
     1234
     12345
 
+    Pattern 4
+    Given an integer n. You need to recreate the pattern given below for any value of N.
+    Let's say for N = 5, the pattern should look like as below:
+
+    1
+    22
+    333
+    4444
+    55555
+
     */
 
     public static void main(String[] args) {
@@ -40,10 +50,13 @@ public class Pattern1 {
         pattern2(n);
         System.out.println();
         pattern3(n);
+        System.out.println();
+        pattern4(n);
 
 
     }
 
+    
 
 
     public static void pattern1(int n)
@@ -76,6 +89,15 @@ public class Pattern1 {
             for (int j = 1; j <= i; j++)
             {
                 System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern4(int n) {
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(i+1);
             }
             System.out.println();
         }
