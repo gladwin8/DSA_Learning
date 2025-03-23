@@ -1,5 +1,6 @@
 DSA Learning !!
-So ill be starting from basics,
+
+Below are the challanges questions Ive tried,
 Will be covering ,
 - Patterns
     - Easy
