@@ -23,10 +23,19 @@ public class Pattern_Medium {
     public static void pattern1(int n)
     {
         for (int i = 1; i <=n ; i++) {
-            for (int j = 1; j <= n; j++)
+            for (int j = 1; j <= n-i; j++)
             {
-                System.out.println();
+                System.out.print(" ");
             }
+            for (int k = 1; k <= 2*i-1; k++)
+            {
+                System.out.print("*");
+            }
+            for (int j = 1; j <= n-i; j++)
+            {
+                System.out.print(" ");
+            }
+            System.out.println();
         }
     }
 }
