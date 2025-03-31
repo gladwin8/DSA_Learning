@@ -1,5 +1,6 @@
 package org.basic.Patterns;
 
+
 public class Pattern_Medium {
 
     /*
@@ -53,6 +54,16 @@ public class Pattern_Medium {
     **
     *
 
+    Pattern 5
+    Given an integer n. You need to recreate the pattern given below for any value of N.
+    Let's say for N = 5, the pattern should look like as below:
+
+    1
+    0 1
+    1 0 1
+    0 1 0 1
+    1 0 1 0 1
+
 
     */
     public static void main(String[] args)
@@ -65,6 +76,8 @@ public class Pattern_Medium {
         pattern3(n);
         System.out.println();
         pattern4(n);
+        System.out.println();
+        pattern5(n);
     }
 
     public static void pattern1(int n)
@@ -124,6 +137,22 @@ public class Pattern_Medium {
             for(int j = 1;j<=i;j++)
             {
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern5(int n)
+    {
+        for (int i = 1; i <= n; i++) {
+            int start = 1;
+            if(i%2==0)
+            {
+                start = 0;
+            }
+            for (int j = 1; j <=i ; j++) {
+                System.out.print(start);
+                start = 1 - start;
             }
             System.out.println();
         }
