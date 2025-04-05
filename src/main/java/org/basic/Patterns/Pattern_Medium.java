@@ -74,7 +74,15 @@ public class Pattern_Medium {
     7 8 9 10
     11 12 13 14 15
 
+    Pattern 7:
+    Given an integer n. You need to recreate the pattern given below for any value of N.
+    Let's say for N = 5, the pattern should look like as below:
 
+    A
+    AB
+    ABC
+    ABCD
+    ABCDE
 
     */
     public static void main(String[] args)
@@ -91,6 +99,8 @@ public class Pattern_Medium {
         pattern5(n);
         System.out.println();
         pattern6(n);
+        System.out.println();
+        pattern7(n);
     }
 
     public static void pattern1(int n)
@@ -179,6 +189,18 @@ public class Pattern_Medium {
             for (int j = 1; j <= i; j++) {
                 System.out.print(temp+" ");
                 temp=temp+1;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern7(int n)
+    {
+        for (int i=0;i<n;i++)
+        {
+            for (char ch='A';ch<='A'+i;ch++)
+            {
+                System.out.print(ch);
             }
             System.out.println();
         }
